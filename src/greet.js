@@ -1,7 +1,8 @@
 'use strict';
 
-var greet = function (somebody) {
-    console.log('Hello ' + somebody + '!!!');
-    // alert('Hello ' + somebody + '!');
-};
-module.exports = greet;
+// export default function greet(name) {
+//     alert(name);
+// }
+
+const greet = (name) => alert(name);
+export default greet;

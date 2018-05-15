@@ -1,16 +1,20 @@
 'use strict';
 
+import greet from './greet';
 require.config({
     paths: {
-        jquery: ['./jquery'],
+        jquery: ['../vendor/jquery'],
     }
 });
 
+
+
 require(['jquery'], function ($) {
     $(document).ready(function ($) {
-        alert('123');
-        $('#abc').click(function () {
-            alert('123');
-        });
+        greet('hello, everyone~~');
+    });
+
+    $('#changebgColor').click(function(){
+        $('body').css('background-color', 'wheat');
     });
 });

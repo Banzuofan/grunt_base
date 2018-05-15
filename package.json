@@ -1,7 +1,6 @@
 {
-  "name": "smary",
+  "name": "grunt_base",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +8,11 @@
   "author": "yxlong",
   "license": "ISC",
   "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-es2015-modules-amd": "^6.24.1",
     "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
     "grunt": "^1.0.2",
     "grunt-babel": "^7.0.0",
     "grunt-contrib-clean": "^1.1.0",
@@ -19,6 +22,16 @@
     "grunt-contrib-watch": "^1.0.0"
   },
   "dependencies": {
+    "babel-plugin-transform-remove-strict-mode": "^0.0.2",
     "grunt-http-server": "^2.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Banzuofan/grunt_base.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Banzuofan/grunt_base/issues"
+  },
+  "homepage": "https://github.com/Banzuofan/grunt_base#readme",
+  "description": ""
 }

@@ -1,0 +1,23 @@
+.enter-user-account{
+    width: 80%;
+    height: 240px;
+    margin: 0 auto;
+    
+    background-color: "red";
+}
+
+.input-item{
+    border-color: rgb(10, 132, 155);
+    border-width: 1px;
+}
+
+input:focus
+{
+	background-color:rgb(192, 192, 190);
+}
+
+.confirm-btn{
+    color: white;
+    background-color: steelblue;
+    padding: 5px 12px;
+}

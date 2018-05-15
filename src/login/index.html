@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Login</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="index.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="login.css" />
 </head>
+
 <body>
-    <button id="login">login</button>
+    <button id="back">Back</button>
+    <div class="enter-user-account">
+        <input class="input-item" id="account" placeholder="enter your account..." />
+        <br />
+        <input class="input-item" id="pwd" placeholder="enter your password..." />
+        <br />
+        <button class="confirm-btn" id="login">Login</button>
+    </div>
 </body>
+<script type="text/javascript" src="../vendor/require.js" data-main="index.js"></script>
+
 </html>

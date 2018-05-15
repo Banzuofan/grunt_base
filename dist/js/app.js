@@ -1,16 +1,27 @@
-'use strict';
+define(['./greet'], function (_greet) {
+    'use strict';
 
-require.config({
-    paths: {
-        jquery: ['./jquery'],
+    var _greet2 = _interopRequireDefault(_greet);
+
+    function _interopRequireDefault(obj) {
+        return obj && obj.__esModule ? obj : {
+            default: obj
+        };
     }
-});
 
-require(['jquery'], function ($) {
-    $(document).ready(function ($) {
-        alert('123');
-        $('#abc').click(function () {
-            alert('123');
+    require.config({
+        paths: {
+            jquery: ['../vendor/jquery']
+        }
+    });
+
+    require(['jquery'], function ($) {
+        $(document).ready(function ($) {
+            (0, _greet2.default)('hello, everyone~~');
+        });
+
+        $('#changebgColor').click(function () {
+            $('body').css('background-color', 'wheat');
         });
     });
 });

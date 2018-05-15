@@ -1,0 +1,13 @@
+.right{
+    float: right;
+    padding: 5px 10px;
+    background: rgb(10, 132, 155);
+}
+
+.left{
+    float: left;
+}
+
+#changebgColor{
+    color: white;
+}
