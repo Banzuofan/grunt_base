@@ -17,7 +17,7 @@ module.exports = {
             },
             { expand: true, cwd: 'src', src: ['*.html'], dest: 'dist' },
             { expand: true, cwd: 'src', src: ['*.css'], dest: 'dist' },
-            { expand: true, cwd: 'src', src: ['*.js'], dest: 'dist/js' },
+            { expand: true, cwd: 'src', src: ['*.js'], dest: 'dist' },
             { expand: true, cwd: 'src/login', src: ['**'], dest: 'dist/login' },
             { expand: true, cwd: 'src/userCenter', src: ['**'], dest: 'dist/userCenter' },
         ]
